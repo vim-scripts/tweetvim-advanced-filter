@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4710
+
+TweetVim has a simple NG word filter as default filter. This plugin adds a high-configuable filter to TweetVim.
+
+All you have to do is to define a dictionary-function, g:tweetvim_advanced_filter.executor. The function must have one argument and the argument is a dictionary of tweet information. And it must return 1 or 0 which represents if the tweet should be filtered or not.
+
+TweetVim
+http://www.vim.org/scripts/script.php?script_id=4532
+
+Github repository of this plugin is below. Please check to get more information. 
+https://github.com/rhysd/tweetvim-advanced-filter
